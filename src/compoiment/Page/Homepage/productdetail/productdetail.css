@@ -1,0 +1,285 @@
+.productdetail{
+    display: flex;
+    margin-top: 20px;
+    background-color: aliceblue;
+    height: 530px;
+}
+.productdetail .phai{
+
+
+
+color: black;
+background-color: aliceblue;
+margin-left: 30px;
+height: 530px;
+
+width: 630px;
+
+
+
+
+}
+.phai-thongso ul li{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+  
+    
+   
+    
+    
+    
+}
+.phai-thongso ul{
+    border: 2px solid orange;
+    margin-left: auto;
+    width:580px;
+    height: 40px;
+    border: none;
+    border-bottom: 0.5px solid rgb(228, 240, 250);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+
+    
+}
+.productdetail .ten {
+    margin-left: 10px;
+}
+.productdetail .tieude{
+    font-size: 30px;
+    color: red;
+    background: rgb(251, 245, 245);
+}
+
+.productdetail .tren{
+    width: 380px;
+    height: 380px;
+    
+}
+
+.productdetail .trai{
+    width: 500px;
+    height: 500px;
+}
+.duoi-tiep{
+    display: flex;
+    z-index: 100;
+}
+
+
+ .trai i{
+    color: red;
+    
+    font-size: 50px;
+    
+    z-index: 100;
+}
+.listanh {
+    width: 120px;
+    height: 120px;
+    margin: 2px;
+    border: 2px solid rgb(205, 205, 220);
+    margin-top: 3px;
+    
+
+    
+}
+.listanh img{
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+    
+}
+.listanh img:hover{
+    border: 0.1px solid gray;
+}
+.productdetail .giua{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+   
+    text-align: start;
+    
+    
+}
+.productdetail  button :hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.pricesingle{
+    color: red;
+}
+.size{
+    width: 35px;
+    height: 35px;
+    border: 2px solid rgb(240, 234, 234);
+    margin-left: 2px;
+}
+.sizelist{
+    display: flex;
+    width: 165px;
+    flex-wrap: wrap;
+    
+
+}
+.giua{
+    margin-left: 10px;
+    
+}
+.giua div{
+    margin-top: 2px;
+
+}
+.sanpham{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: blue;
+    margin-left:20px ;
+    
+}
+.size:hover{
+    background-color: rgb(245, 241, 241);
+    cursor: pointer;
+}
+
+.nut{
+    margin-top: 15px;
+    
+    background-color: rgb(214, 209, 206);
+    margin-left: 8px;
+    width: 140px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 3px;
+    color: orangered;
+    border: 1px solid rgb(236, 194, 117);
+    transition-duration: 1s;
+}
+.nut:nth-child(2){
+    color: aliceblue;
+    background-color: orangered;
+    border: none;
+}
+.nut:nth-child(1):hover{
+    border: 1px solid orangered;
+}
+.nut:nth-child(1){
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.nut:hover{
+   
+    color: black;
+    cursor: pointer;
+}
+.mau li{
+width: 20px;
+height: 20px;
+border-radius: 50%;
+border: 2px solid rgb(241, 227, 227);
+margin-left: 5px;
+}
+.mau>li:nth-child(1){
+    background-color: rgb(248, 9, 9);
+}
+.mau>li:nth-child(2){
+    background-color: aqua;
+}
+.mau>li:nth-child(3){
+    background-color: rgb(229, 251, 31);
+}
+.mau>li:nth-child(4){
+    background-color: rgb(246, 39, 246);
+}
+.mau li:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.tanggiam{
+    display: flex;
+    margin-left:  30px;
+}
+.tanggiam input{
+    width: 20px;
+    height: 25px;
+    
+}
+.tanggiam button{
+    width: 25px;
+    height: 25px;
+    border: 2px solid gainsboro;
+    margin-left: 4px;
+}
+.tanggiam button:hover{
+    background-color: rgb(219, 199, 199);
+    cursor: pointer;
+}
+.nutbam{
+    display: flex;
+}
+.duoi-nut{
+    
+    width: 200px;
+    height: 0px;
+    
+}
+
+.duoi-nut .trai i {
+    
+    font-size: 20px;
+    border: 1px solid rgb(246, 244, 244);
+    padding: 5px;
+    margin-top: -200px;
+    position: absolute;
+    margin-top: -155px;
+    margin-left: -355px;
+    transition-duration: 1s;
+    opacity: 0.8;
+    color: grey;
+}
+.duoi-nut .phai i {
+    
+    font-size: 20px;
+    border: 1px solid rgb(246, 244, 244);
+    padding: 5px;
+    color: red;
+    position: absolute;
+    margin-top: -155px;
+    margin-left: 350px;
+    transition-duration: 1s;
+    opacity: 0.8;
+    color: grey;
+}
+.duoi-nut .phai i:hover{
+    background-color: azure;
+    border: 1px solid ghostwhite;
+    color: rgb(87, 87, 87);
+    
+}
+.duoi-nut .trai i:hover{
+    background-color: azure;
+    border: 1px solid ghostwhite;
+    color: rgb(87, 87, 87);
+
+}
+.hh{
+    width: 500px;
+    height: 300px;
+    
+    margin-left: -60px;
+}
+.hh img{
+    width: 30px;
+    height: 140px;
+    margin-left: 0px;
+    
+    
+    margin-left: 1px;
+}

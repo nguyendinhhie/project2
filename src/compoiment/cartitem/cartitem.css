@@ -1,0 +1,57 @@
+.item-detail{
+    display: flex;
+    padding-top: 10px;
+    border-bottom: 2px solid gold;
+}
+.item-detail img{
+width: 50px;
+height: 50px;
+
+margin-left: 100px;
+}
+.items{
+    width: 100%;
+   
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 100px;
+    padding: 5px;
+}
+.gia{
+    
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    
+
+}
+.gia div:nth-child(1){
+    display: flex;
+    padding-left: 5px;
+}
+button{
+    margin: 5px;
+    width: 32px;
+    height: 32px;
+}
+.gia div:nth-child(2){
+    margin-left: 5px;
+   
+}
+.gia2{
+    margin-left: 30px;
+    color: red;
+}
+.gia div:nth-child(3){
+    margin-left: 5px;
+   font-size: 25px;
+   color: red;
+   padding-left: 150px;
+   
+}

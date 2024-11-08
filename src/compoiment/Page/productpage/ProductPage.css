@@ -1,0 +1,172 @@
+.title{
+    background:linear-gradient(to bottom,rgb(244, 162, 108),rgb(255, 77, 0));
+    width: 100.2%;
+    height: 60px;
+    font-size: 35px;
+    color: white;
+    border-radius: 30px;
+    margin-top: -28px;
+    margin-left: -1px;
+    
+    
+}
+div{
+    display: block;
+}
+.container-product{
+    width: 89%;
+    height: 550px;
+    border: 3px solid rgb(236, 126, 9);
+    margin: auto;
+    margin-top: 60px;
+    
+    
+}
+.container-product .giohang{
+    width: 145px;
+    margin-top: 3px;
+}
+.muangay{
+    width: 100px;
+    margin-top: 3px;
+}
+
+.container-product .ul-product{
+    width: 1358px;
+    overflow: hidden;
+    margin-left: 3px;
+    display: flex;
+    flex-wrap: nowrap;
+    
+    
+   padding-left: 5px;
+   
+     
+}
+.product{
+    width: 331px;
+    height: 482px;
+    border: 2px solid rgb(251, 247, 247);
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(244, 243, 246);
+  
+    
+}
+.product img{
+    width: 100%;
+    height: 300px;
+    transition-duration: 0.1s;
+}
+.product :hover{
+    opacity: 0.96;
+}
+.product :hover img{
+   transform: translateY(-2px);
+}
+
+.title-cuoi{
+    width: 100.3%;
+    background:linear-gradient(to left,rgb(228, 178, 144),rgb(255, 77, 0));
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    border-radius: 25px;
+    margin-top: -25px;
+    margin-left: -2px;
+    z-index: 100;
+}
+
+.hotnhat{
+    color: white;
+    width: 120px;
+    height: 30px;
+    background-color: rgb(22, 255, 5);
+    border-radius: 0  80px 0 0;
+}
+.nut-them{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top: -330px;
+    opacity: 0;
+    transition-duration: 1s;
+    
+    
+}
+.nut-them .phai{
+    z-index: 100;
+    
+
+}
+.nut-them .phai i{
+    transition-duration:1s ;
+}
+.nut-them .trai i{
+    transition-duration:1s ;
+}
+.nut-them .phai i:hover{
+    opacity: 0.8;
+    border: 1px solid gray ;
+    background-color: rgb(255, 255, 255);
+}
+.nut-them .trai i:hover{
+    opacity: 0.8;
+    border: 1px solid gray ;
+    background-color: rgb(255, 255, 255);
+}
+.nut-them .trai{
+    z-index: 100;
+    margin-left: -170px;
+    
+}
+
+
+.nut-them .trai i{
+    font-size: 40px;
+    color: blue;
+    float: left;
+    margin-left: -68px;
+    border: 2px solid gainsboro;
+    padding: 10px;
+     position: absolute;
+     margin-top: -10px;
+}
+.container-product:hover .nut-them {
+    opacity: 1;
+}
+.nut-them .trai button{
+    z-index: 100;
+    opacity: 1;
+    margin-left: -150px;
+    position: relative;
+    margin-top: -10px;
+}
+.nut-them .phai button{
+    z-index: 100;
+    opacity: 1;
+    margin-left: 150px;
+    position: relative;
+    margin-top: -10px;
+}
+.nut-them .phai i{
+    font-size: 40px;
+    color: blue;
+    float: right;
+    border: 2px solid gainsboro;
+    padding: 10px;
+    position: absolute;
+    margin-left:68px;
+    margin-top: -10px;
+    
+}
+
+
+
+
+.skeleton-product{
+    display: flex;
+}

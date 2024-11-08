@@ -1,0 +1,144 @@
+/* Thay đổi kích thước hình ảnh */
+.slick-slide img {
+     /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của slide */
+    border-radius: 0px; /* Thêm bo góc cho hình ảnh */
+  }
+  
+  /* Thay đổi màu nền của slide */
+  .slick-slide {
+    background: #f8f8f8; /* Màu nền cho mỗi slide */
+    padding: px; /* Thêm khoảng cách bên trong */
+  }
+  
+  /* Thay đổi kiểu dáng cho các điểm (dots) */
+  .slick-dots li button:before {
+     /* Kích thước của điểm */
+    color: #000; /* Màu sắc của điểm */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #ff0000;
+    /* Màu sắc của điểm đang hoạt động */
+  }
+  /* Điều chỉnh nút Next và Previous */
+/* customSlick.css */
+
+
+
+/* customSlick.css */
+
+/* Điều chỉnh nút Next và Previous */
+.slick-prev, .slick-next {
+    width: 22px; /* Chiều rộng */
+    height: 40px; /* Chiều cao */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #c9c5c5; /* Màu nền */
+    border-radius: 10%; /* Bo góc thành hình tròn */
+
+  }
+  
+  /* Vị trí của nút Next và Previous */
+  .slick-prev {
+    left: 0px; /* Khoảng cách từ bên trái */
+    z-index: 100;
+    transform: rotate(180deg);
+    margin-top: -16px;
+    color: black;
+    
+  }
+  .slick-slide :hover .slick-prev{
+    display: block;
+    opacity: 1;
+  }
+  
+  .slick-next {
+    right: 0px; /* Khoảng cách từ bên phải */
+    color: black;
+  }
+  
+  /* Ẩn icon mặc định */
+  .slick-prev:before, .slick-next:before {
+    display: none; /* Ẩn icon mặc định */
+  }
+  
+  /* Thêm icon tùy chỉnh */
+  .slick-prev::after {
+    content: '\25B7'; /* Thay thế bằng icon trái */
+    font-size: 24px; /* Kích thước icon */
+    color: white; /* Màu icon */
+    z-index: 1000;
+    transform: rotate(90deg);
+
+  }
+  
+  .slick-next::after {
+    content: '\25B7'; /* Thay thế bằng icon phải */
+    font-size: 24px; /* Kích thước icon */
+    color: white; /* Màu icon */
+  }
+  
+
+.tren-anh img:nth-child(1){
+  width: 365px ;
+  height: 365px;
+  
+  margin-left: 60px;
+  margin-bottom: 8px;
+  margin-top: 5px;
+}
+.tren-anh img{
+  width: 100% ;
+  height: 100%;
+  transition-duration: 1s;
+}
+.tren-anh img:hover{
+  transform: scaleX(1);
+}
+.anh-an{
+  width: 1490px;
+  height: 1300px;
+  background-color: rgb(216, 203, 203);
+  z-index: 1000;
+  position: absolute;
+  border: 2px solid rebeccapurple;
+  margin-top: -1050px;
+  
+  
+}
+.anh-an .trai-oneanh img{
+  width: 800px;
+  height: 1000px;
+  float: left;
+  border: 2px solid rebeccapurple;
+}
+.anh-an .phai-listanh{
+  width: 500px;
+  float: right;
+}
+.anh-an .phai-listanh .listanh{
+  width: 200px;
+  border: 2px solid rebeccapurple;
+  height: 160px;
+  margin-top: 10px;
+}
+.anh-an .phai-listanh img{
+  width: 100%;
+  height: 100%;
+  margin-left: -2px;
+  margin-top: -2px;
+
+}
+.close{
+  width: 50px;
+  height: 50px;
+  border: 2px solid rebeccapurple;
+  font-size: 25px;
+  float:left ;
+position: absolute;
+
+color: red;
+margin-left: 1439px;
+cursor: pointer;
+}
